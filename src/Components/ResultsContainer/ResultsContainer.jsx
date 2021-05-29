@@ -1,16 +1,15 @@
 import React from 'react';
+import Namecard from '../Namecard/Namecard';
 import './ResultsContainer.css';
 
 const ResultsContainer = ({ SuggestedNames }) => {
     const SuggestedNamesJsx = SuggestedNames.map((SuggestedName) => {
-        return (<p> {SuggestedName}</p>);
+        return <Namecard key = {SuggestedName} SuggestedName = {SuggestedName}/>;
     });
 
     return (
         <div className ='results-container'>
-            <p>
-                {SuggestedNamesJsx}
-            </p>
+             {SuggestedNamesJsx}
         </div>
     );
 };
