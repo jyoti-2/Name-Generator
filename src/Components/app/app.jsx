@@ -31,9 +31,6 @@ class App extends React.Component
                 />
                 <SearchBox onInputChage={this.handleInputChange} />
                 <ResultsContainer SuggestedNames={this.state.SuggestedNames}/>
-            
-                
-                
             </div>
         );
     };

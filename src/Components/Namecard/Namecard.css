@@ -1,12 +1,17 @@
 .result-namecard {
-    color: #e7e9f0;
-    
+    color: hsl(227, 23%, 92%);
+    font-size: medium;
+    font-weight: 500;
+    font-family: sans-serif;
+    background: #282d4f;
     margin: 10px 15px;
     min-width: 75px;
     padding: 10px 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
-    transition: backgroung 0.35;
+    transition: backgroung 0.555;
+    display: flex;
+    justify-content: center;
 }
 
 .result-namecard:hover {
