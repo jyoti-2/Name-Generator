@@ -5,9 +5,6 @@ import Header from './../Header/Header.jsx';
 import './app.css';
 
 const name = require("@rstacruz/startup-name-generator");
-
-
-
 class App extends React.Component
 {
     state = {

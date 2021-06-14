@@ -1,7 +1,11 @@
-body{
-    background-color: rgb(23, 16, 87);
+body {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(
+        90deg,
+        rgba(131, 58, 180, 1) 0%,
+        rgba(9, 33, 213, 1) 27%
+    );
     overflow-x: hidden;
     color: #ffffff;
     font-family: 'Lato';
-    
 }
